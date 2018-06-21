@@ -1,0 +1,72 @@
+.taskModal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+ form {
+      background: rgba(252,254,252,0.9);
+      border: 1px solid #ddd;
+      padding: 20px;
+      width: 100%;
+      max-width: 440px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+.taskModal h4 {
+      margin: 0 0 20px;
+      font-size: 22px;
+  }
+
+.taskModal .form-block {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+.taskModal label {
+      display: inline-block;
+      width: 22%;
+      font-size: 16px;
+  }
+
+.taskModal input[type='text'] {
+      width: 70%;
+      height: 25px;
+      padding-left: 10px;
+      font-size: 16px;
+  }
+
+.taskModal input[type='number'] {
+      width: 40px;
+      height: 25px;
+      padding-left: 10px;
+      font-size: 16px;
+  }
+
+.taskModal .helper-text {
+      font-size: 13px;
+      color: #999;
+      padding-left: 20px;
+  }
+
+.taskModal .form-action {
+    margin: 15px 0 0;
+    padding: 15px 0 0;
+    border-top: 1px solid #b7b4b4;
+    position: relative;
+}
+
+.form-action:after {
+     position: absolute;
+     content: "";
+     top: 0;
+     left: 0;
+     right: 0;
+     border-top: 1px solid #fff;
+ }

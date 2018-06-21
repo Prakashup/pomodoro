@@ -4,9 +4,14 @@
       color: #999;
   }
 
+.timer .timer-label span {
+      font-size: 16px;
+      font-weight: normal;
+}
+
 .timer .timer-clock {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       border: 10px solid #888;
       color: #333;
@@ -19,7 +24,10 @@
 }
 
 .timer span {
-      font-size: 34px;
+      font-size: 50px;
       font-weight: bold;
   }
+.timer .btn {
+
+}
 

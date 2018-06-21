@@ -1,28 +1,30 @@
-.App {
+.pomoDoro {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.btn {
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 15px;
+  min-width: 90px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.btn-primary {
+   background: #2196f3;
 }
 
-.App-title {
-  font-size: 1.5em;
+.btn-secondary {
+   background: #838883;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+.btn:hover {
+   opacity: 0.8;
+ }
